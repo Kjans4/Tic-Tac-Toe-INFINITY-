@@ -45,7 +45,7 @@ class RollingTicTacToe:
                   width=25, height=2, command=lambda: self.start_game(True)).pack(pady=10)
         tk.Button(self.main_container, text="2 Player Mode", font=("Arial", 10, "bold"), 
                   width=25, height=2, command=lambda: self.start_game(False)).pack(pady=10)
-        tk.Button(self.main_container, text="Close Program", width=25, height=2, fg="red", 
+        tk.Button(self.main_container, text="Exit", width=25, height=2, fg="red", 
                   command=self.root.quit).pack(pady=10)
 
     def start_game(self, vs_comp):
